@@ -3,6 +3,12 @@
     color: black;
     margin-top: 50px;
 }
+h2{
+text-align: center;
+}
+thead{
+    background: rgba(135, 206, 250, 0.301);
+}
 footer{
     padding: 40px 10px 0 10px;
     background-color: rgba(171, 197, 248, 0.212);
@@ -18,16 +24,24 @@ footer{
     width: 25px;
     height: 25px;
 }
+/** Salider Home */
 .banner{
     width: 100%;
     height: 400px;
     margin-bottom: 15px;
  
 }
+/** Imagens azules del Home */
 .imgh3{
     padding: 20px;
 }
-
-thead{
-    background: rgba(135, 206, 250, 0.301);
+/** Perzonalizacion depage FAQs en el componente tabs */
+.tab-content{
+    padding: 20px;
+    text-align: justify;
+}
+.tab-pane{
+    background-color: rgba(221, 221, 221, 0.075);
+    padding: 8px;
+    border-radius: 10px;
 }
